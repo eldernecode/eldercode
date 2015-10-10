@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <title> Nathan Elder</title>
+       <link rel="shortcut icon" href="img/idea.ico"/>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+      
+<script>
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV --->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+});
+</script>
+	
+<script type="text/javascript">
+<!-- 
+eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%73%63%72%69%70%74%20%74%79%70%65%3d%22%74%65%78%74%2f%6a%61%76%61%73%63%72%69%70%74%22%3e%5c%6e%69%66%20%28%20%77%69%6e%64%6f%77%2e%61%64%64%45%76%65%6e%74%4c%69%73%74%65%6e%65%72%20%29%20%7b%20%20%5c%6e%20%20%76%61%72%20%73%74%61%74%65%20%3d%20%30%2c%20%6b%6f%6e%61%6d%69%20%3d%20%5b%33%38%2c%33%38%2c%34%30%2c%34%30%2c%33%37%2c%33%39%2c%33%37%2c%33%39%2c%36%36%2c%36%35%5d%3b%20%20%5c%6e%20%20%77%69%6e%64%6f%77%2e%61%64%64%45%76%65%6e%74%4c%69%73%74%65%6e%65%72%28%22%6b%65%79%64%6f%77%6e%22%2c%20%66%75%6e%63%74%69%6f%6e%28%65%29%20%7b%20%20%5c%6e%20%20%20%20%69%66%20%28%20%65%2e%6b%65%79%43%6f%64%65%20%3d%3d%20%6b%6f%6e%61%6d%69%5b%73%74%61%74%65%5d%20%29%20%73%74%61%74%65%2b%2b%3b%20%20%5c%6e%20%20%20%20%65%6c%73%65%20%73%74%61%74%65%20%3d%20%30%3b%20%20%5c%6e%20%20%20%20%69%66%20%28%20%73%74%61%74%65%20%3d%3d%20%31%30%20%29%20%20%5c%6e%20%20%20%20%20%20%77%69%6e%64%6f%77%2e%6c%6f%63%61%74%69%6f%6e%20%3d%20%22%68%74%74%70%73%3a%2f%2f%77%77%77%2e%79%6f%75%74%75%62%65%2e%63%6f%6d%2f%77%61%74%63%68%3f%76%3d%6a%56%5f%69%59%6d%6b%31%53%6e%34%22%3b%7d%2c%20%74%72%75%65%29%3b%20%20%5c%6e%7d%20%20%20%20%20%5c%6e%3c%2f%73%63%72%69%70%74%3e%27%29%3b'));
+// -->
+</script>
+<noscript><i>Javascript required</i></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66324801-1', 'auto');
+  ga('send', 'pageview');
+</script>    
+ </head> 
+	
+<body>
+<!-- HEADER START-->   
+<header id="header">   
+<div class="content">
+<!--    NAVAGATION-->
+<nav id="nav">
+	<ul>
+		<li><a href="#Home" title="Home" >Home</a></li>
+		<li><a href="#Background" title="Background">Background</a></li>
+		<li><a href="#Projects" title="Projects">Projects</a></li>
+		<li><a href="#Career" title="Career">Career</a></li>
+		<li><a href="#Current" title="Current">Current</a></li>
+        <li id=websites><a class="lightbulb" href="#Lastpage"><img src='img/lightbulb.png' alt="Lightbulb"></a></li>
+	</ul>
+</nav>
+</div>
+</header>	
+<!-- HEADER END-->   
+
+<!-- SLIDES START -->   	
+<section>
+    <div id="Home">
+		<div class="content">
+            <h1>Nathan<br>Elder</h1>
+		    <h2>a site about me</h2>
+		</div> 
+    </div>
+</section>
+
+<section>
+	<div id="Background">
+		<div class="content" >
+            <div class="quotes_container">          
+		    <h3 class="quotes">“I grew up in a small midwestern town in Missouri.  When I was in elementary school, I coded some programs, games, and songs.  As I grew older my interests began to change, yet I never forgot my experiences and those fun times.  My creative spirit led me to the arts and I graduated from college with a Bachelor of Arts degree in sculpture.”</h3>
+		</div>
+          <div id="spic">
+            <img class=mpic src="img/missouri.jpg" alt="missouri" width="200"/>
+            <img class=arrow src="img/rightarrow.png" alt="rightarrow" width="65" height="85"/>
+            <h4 class="gray">Creativity </h4>
+          </div>
+        </div> 
+    </div>
+</section>
+
+<section>   
+   <div id="Projects">
+		<div class="content">
+			   <div class="quotes_container">
+                   <h3 class="quotes shadow">“For me, taking a pencil sketch from concept to <label for="show"><span class="boxie">creation</span></label> is fun and exhilarating.  I love working with my hands and the creative process.  While documenting my artwork, I found that I also enjoyed photography.  It was like sculpting on the 2-D plane.  Naturally, I engaged myself with many creative projects that encompassed film/digital photography, woodworking and design.” </h3>
+		    </div> 
+		</div> 
+<!--SLIDER SPAN HIDE SHOW-->
+<input type=radio id="show" name="group">
+<span id="content">
+    
+ <!--       SLIDER INSIDE PROJECT DIV-->
+<div id="slider">
+  <a class="control_next">Next</a>
+  <a class="control_prev">Previous</a>
+    <label for="hide"><span><a class="control_hide">Hide</a></span></label>
+    <input type=radio id="hide" name="group">
+  <ul>
+    <li><img class="creations" src="img/AppLogo_2015NE.jpg" alt="ScenicHop Nathan Elder Copyright 2015"></li>
+    <li><img class=creations src="img/Art_Cabinet_2015NE.jpg" alt="Cabinet Nathan Elder Copyright 2015"></li>
+    <li><img class=creations src="img/Couch_2015NE.jpg" alt="Couch Nathan Elder Copyright 2015"></li>
+    <li><img class=creations src="img/I_know_that_you_know_NE.jpg" alt="Duck Photography Nathan Elder Copyright 2015"></li>
+    <li><img class=creations src="img/pretending_to_be_natural_NE.jpg" alt="Nathan Elder Expiremental Photography Art Copyright 2015"></li>
+    <li><img class=creations src="img/Radio_on_the%20Beach_NE.jpg" alt="Nathan Elder Expiremental Photography Art Copyright 2015"></li>
+  </ul>  
+       </div>
+       </span>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="js/index.js"></script> 
+<!--       END SLIDER INSIDE PROJECT DIV-->
+    </div>
+</section>
+    
+<section>
+    <div id="Career">
+		<div class="content">
+              <div class="quotes_container">
+		    <h3 class="quotes">“An opportunity arose to move to North Carolina to work as the Assistant Director for a Fortune 500 company using my business experience that I developed during my college summers.  My focus was working with their proprietary computer software for the Southeastern Division accounts.  I found this part of the job was most interesting and rekindled my passion for programming code from my youth.”  </h3>
+		</div>        
+		</div> 
+        
+        <div id="spic">
+            <img class=ncpic src="img/northcarolina.jpg" alt="northcarolina" width="200"/>
+        <img class=arrow src="img/rightarrow.png" alt="rightarrow" width="65" height="85"/>
+        <h4 class="gray">Home</h4>
+        </div>
+        
+    </div> 
+</section>
+	
+<section>
+	<div id="Current">
+		<div class="content">
+           <div class="quotes_container">
+		    <h3 class="quotes shadow">“I recently graduated from Tech Talent South’s Full Time Code Immersion Bootcamp in Raleigh, NC.  I studied HTML5, CSS3, Ruby on Rails, Domain Modeling, HTTP and RESTful design, Javascript, and AJAX.  It was especially exciting to build an app from scratch and to incorporate a Google Map API into it.  During the Datapalooza event, I was part of a app team that won "Greatest Potential Impact" and "Crowd Favorite”.  My favorite moments at T.T.S. were volunteering for Kids Code Tuesdays as the computer programming instructor.  Currently, my code library is growing and am I continuing to learn new languages, methods and practices in the field.”</h3>
+            </div>
+            
+    <section class="comments">
+            <div id="wrapper">
+<div class="brighten border"><img class=npic src="img/nathan.jpg" alt="nathan" height="300"></div>
+                <p class="orange"><i>The perfect meld of art and code</i><br>~ Nathan Elder ~</p>
+            </div>
+<div id="wrapper2">
+  <script type="text/javascript" src="http://form.jotform.us/jsform/52111350281137"></script>
+</div>
+    </section>
+    
+		</div>
+ </div>    
+</section>
+  
+<section>    
+<div id="Lastpage">
+<ul class="websites">
+  <li class="websites"><a href="https://www.linkedin.com/in/nathanselder">linkedin </a></li>
+  <li class="websites"><a href="https://eldercode.wordpress.com/">blog </a></li>
+  <li class="websites"><a href="https://github.com/nathanelder">github </a></li>
+</ul>
+    <footer>All Images &copy; Copyrighted 2015 <br>by Nathan Elder
+</div>  
+</section>
+    
+</body>
+</html>

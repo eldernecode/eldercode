@@ -1,0 +1,610 @@
+/*=  STYLING*/
+body, html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+        font-size: 100%;
+        line-height: 1.5;
+        overflow-x: hidden;
+}
+
+h1 { 
+        font-family: 'Fredericka the Great', cursive;
+	font-weight: normal;
+	font-size: 6em;
+	text-align: center;
+        color: rgba(247, 134, 3, 0.98);
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family: 'Wire One', sans-serif;
+   font-weight: bolder;
+   font-size: 3.2em;
+   text-align: left;
+   margin: 0 0;
+   padding-top: 4.5em;
+   padding-left: 5em;
+}
+
+h3 {
+   font-family: 'Wire One', sans-serif;
+   font-weight: bolder;
+   font-size: 3.2em;
+   text-align: justify;
+   margin: 0 0;
+   padding: 0;
+   
+}
+
+.boxie {
+    padding: .15em;
+    border: solid;
+    border-width: .15em;
+    border-color: rgba(247, 134, 3, 0.98);
+    color:rgba(247, 134, 3, 0.98);
+    cursor:pointer;
+    cursor:hand;
+    text-shadow: none;
+}
+
+
+h4 {
+   font-family: 'Fredericka the Great', cursive;
+   font-weight: normal;
+   text-align: left;
+   padding: 0;
+   display: inline;
+}
+
+/*STATE AND ARROW PIC*/
+#spic {padding-top:3em;
+    width: 25em;
+    height:11em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+ /* TEXT SHADOW */
+.shadow {
+ font-weight:900;
+ text-shadow: 2px 2px 2px #000, 0 0 1em white, 0 0 1em papayawhip;
+}
+
+/*WRAPPER FOR CURRENT IMAGE*/
+#wrapper {float:left;
+    position:absolute;
+    margin-left:1.4%;
+    margin-top: 10px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.npic{margin-top:1em;}
+/*COMMENT CONTAINER*/
+
+#wrapper2 {width:79%;
+    padding: 0;
+    margin-top: 1%;
+    margin-left: 15em;
+}
+
+.comments {
+    margin-left: auto;
+    margin-right:auto;
+    width:40em;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    background-color:rgba(77, 77, 77, 0.8);
+    border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+    height: 25em;
+    border: 5px solid rgba(247, 134, 3, 0.98);
+    z-index: 3;
+}
+/*END COMMENT CONTAINER*/
+
+
+/*CURRENT IMAGE - BRIGHTEN & BORDER*/
+
+.brighten img {display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.brighten img {display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.brighten img {
+ border-radius: 1em;
+-webkit-filter: brightness(60%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.brighten img:hover {
+-webkit-filter: brightness(120%);
+}
+.border img {
+transition: 1s ease;
+}
+.border img:hover{
+box-shadow: 0 0 0 .8em #000000;
+border-radius: 1em;
+transition: 1s ease;
+}
+
+/*= HEADER & NAVIGATION*/
+.lightbulb{position: absolute; bottom: .01em;}
+.lightbulb img{width:4em; height: auto;}
+
+#header { 
+	width: 100%; 
+	background: url('../img/header-bg.png'); 
+	height: 5em; 	
+	position: fixed;
+	margin-top: 2em;
+    border-radius: 0 2em 2em 0;
+    z-index:999;
+}
+
+#nav {float: right; margin-top: 1.4em;margin-right: 8%;}
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;	
+}
+
+#nav li{
+	margin-top: .6em;	
+	float: left;
+	padding-left: 1.3em;
+    font-size: 1.3em; text-decoration: none; font-family: 'Wellfleet';
+}
+
+#nav li a { color: #fff; opacity:0.6;}
+#nav li a.active { color: rgba(247, 134, 3, 0.98); opacity:0;}
+#nav li a:hover { color: rgba(247, 134, 3, 0.98); opacity:1; font-style: italic;
+}
+
+.quotes_container {width: 80%; margin: 0 auto;}
+/*= QUOTES AND SOME ELEMENTS*/
+.quotes {   
+   font-family: 'Goudy Bookletter 1911', serif;
+   font-weight: normal;
+   font-size: 2em;
+   text-align: justify;
+   margin: 0em;
+   height:7em;
+   padding: .5em;
+   overflow:auto;
+   transform: translateY(-15%);
+}
+ 
+/*STATE DESCRIPTON*/
+.gray { font-family:"Wellfleet";  position: relative; bottom: 80px; color: #94a4a4; font-size: 1.5em; }   
+
+/*CURRENT IMAGE DESCRIPTION*/
+.orange { font-family:"Wellfleet";  text-align: center; margin: 10px 0 0 0; color: rgba(247, 134, 3, 0.98); font-size: 1.3em; }
+
+/*= SLIDES STYLING*/
+#Home{
+	background:url(../img/nathanVAphotographer2-2.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+    height: 570px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#Background{
+	background-color: #fff;
+	color: #333333;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#Projects{
+	background: url(../img/wood4.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 570px;
+        margin: 0;
+	padding: 200px 0 260px 0;	
+	background-size: cover;
+}
+
+#Career{
+	background-color: #fff;
+	color: #333333;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#Current{
+	background: url(../img/drive2.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	margin: 0;
+    height: 570px;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+#Lastpage{
+    height: 760px;
+    background: #a3a37e;
+    padding: 12.5em 1em 1.25em 0;
+    margin 0 auto;
+    overflow: hidden;}
+
+/*SLIDER HIDE OR SHOW*/
+input#hide,input#show {
+    display:none;
+}
+span#content {
+    display:none;
+}
+input#show:checked ~ span#content {
+  display:block;
+}
+/*END SLIDER HIDE SHOW*/
+
+/*START SLIDER*/
+.creations {height: 480px; width: 600px;}
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: -1em auto 0 auto;
+  border-radius: 40px;
+}
+
+#slider ul {
+  position: relative;
+  margin: -2px;
+  padding: 0;
+  height: 480px;
+  list-style: none;
+}
+
+#slider li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 480px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+  border-radius: 40px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+a.control_hide {
+    position: absolute;
+    bottom:0;
+    z-index:1;
+    display: block;
+    padding: 2% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.control_prev:hover, a.control_next:hover, a.control_hide:hover {
+    background: rgba(247, 134, 3, 0.98);
+    -webkit-transition: all 0.4s ease;
+}
+
+a.control_hide {
+    right: 44%;
+    border-radius: 30px 30px 0px 0;
+}
+
+a.control_prev {
+    border-radius: 0 30px 30px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 30px 0 0 30px;
+}
+
+/*END SLIDER*/
+
+
+/*LAST PAGE*/
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjafesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+/*CENTER THE WEBSITE GLOW LINKS*/
+ul.websites li.websites{
+    float:left;
+    display: block;
+    width: 32.8%;
+    position:relative;
+    top: .5em;
+    padding: 15px 0 145px 0;
+    margin-left: -3px;
+}  
+
+/*GLOW*/
+li.websites{
+  background: url(../img/ideas.png) no-repeat top;
+  text-align:center;
+  font-size:5em;
+}
+
+a{
+  text-decoration:none; 
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+li.websites:nth-child(-n+3) a{
+  color:#4D4D4D;
+  font-family:Pacifico;
+}
+li.websites:nth-child(-n+3) a:hover{ 
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate; 
+}
+
+li.websites a:hover{
+color:#ffffff;  
+}
+/*WEBKIT GLOW*/
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FFDD1B,
+               0 0 70px  #FFDD1B,
+               0 0 80px  #FFDD1B,
+               0 0 100px #FFDD1B,
+               0 0 150px #FFDD1B;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FFDD1B,
+               0 0 35px #FFDD1B,
+               0 0 40px #FFDD1B,
+               0 0 50px #FFDD1B,
+               0 0 75px #FFDD1B;
+  }
+}
+/*GLOW FOR MOZILLA*/
+@-moz-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FFDD1B,
+               0 0 70px  #FFDD1B,
+               0 0 80px  #FFDD1B,
+               0 0 100px #FFDD1B,
+               0 0 150px #FFDD1B;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FFDD1B,
+               0 0 35px #FFDD1B,
+               0 0 40px #FFDD1B,
+               0 0 50px #FFDD1B,
+               0 0 75px #FFDD1B;
+  }
+}
+/*GLOW*/
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FFDD1B,
+               0 0 70px  #FFDD1B,
+               0 0 80px  #FFDD1B,
+               0 0 100px #FFDD1B,
+               0 0 150px #FFDD1B;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FFDD1B,
+               0 0 35px #FFDD1B,
+               0 0 40px #FFDD1B,
+               0 0 50px #FFDD1B,
+               0 0 75px #FFDD1B;
+  }
+}
+/*END GLOW LINKS*/
+
+/*Footer*/
+footer{
+    margin-top: 36em;
+    opacity: 0.7;
+    background-color:black;
+    color:rgba(247, 134, 3, 0.98);
+    clear:both;
+    text-align:center;
+    padding:1.5em;
+    width: 100%;
+}
+
+/*RESPONSIVE STUFFINS*/
+/*    SLIDER*/
+
+/*FIRST BREAK AT 1024*/
+@media (max-width: 1024px){
+ 
+/*NAVAGATION*/
+    .lightbulb {position: absolute;bottom: -0.2em;}
+    #header {height: 4em;}
+    #nav {float: right; margin-top: .7em; margin-right: 16%;}
+    #nav ul{list-style: none; display: block; margin: 0 auto;}
+    #nav li{margin-top: .6em; float: left; padding-left:0.5em; font-size: 1em;}
+/*END NAVAGATION*/
+#Home{
+	background: url(../img/nathanVAphotographer2-2.jpg) fixed no-repeat;
+        height: 570px;
+        background-color: rgba(187, 215, 232, 0.59);
+        background-size: contain;
+        background-position: 0 2em;
+    }
+    
+    #Career, #Background{height: 400px;}
+
+#Projects{
+	background: url(../img/wood4.jpg) 0 calc(40% - 1px)fixed no-repeat;
+	color: #fff;
+	height: 500px;	
+	background-size: contain; 
+	background-color: rgba(139, 172, 132, 0.38)
+}
+
+#Current{
+	background: url(../img/drive2.jpg) 0 calc(78% - 12px) fixed no-repeat;
+	color: #fff;
+        height: 500px;
+        background-size: contain;
+        background-color: rgba(33, 40, 77, 0.97);
+}
+
+#Lastpage{height: 550px; padding-bottom: 0;}
+    
+    .quotes {font-size: 1.8em; margin-left: 10%;margin-right: 10%;margin-top: -8%;}  
+
+    h1{font-size: 5em}
+    h2{font-size: 3em; float: left; margin-left: 1.5em; padding: 3em 0 0 1em;}
+/*    STATE PIC ARROW AND WORD*/
+    .gray{font-size: 1.5em; bottom: 65px;}
+    .mpic{width: 31%; height:60%;}
+    .ncpic{width: 45%; height:40%}
+    .arrow{width: 20%; height:40%;}
+    
+/*    SLIDER*/
+    .creations {width:438px;height: 350px;}
+    #slider {margin: 0 auto 0 auto;}
+    #slider ul {height: 350px; width: 438px;
+  padding: 0;}
+    #slider li {height: 350px; width: 438px;}
+  .content, .quotes_container, .websites{width:100%;}
+  .quotes_container {padding-bottom: 5px;}
+  ul.websites li.websites {font-size:3em; padding: 44px 0 165px 0; background-size:5.9em; width: 30%;}
+  footer{margin-top:26em;padding:1.1em;}
+} 
+
+
+/*SECOND BREAK AT 768px*/
+@media (max-width:768px){
+#Home{background-position: 0 11em;}
+#Projects{background-position: 0 44%;height:550px;}
+#slider {margin: -3em auto 0 auto;}
+.quotes_container {margin: -0.5em auto;padding-bottom:9.5em;}
+#spic{heigth 90px;}
+#Current{background-position: 0 74%}
+#Lastpage{height: 768px;}
+footer{margin-top:40em;padding:1.1em;}
+}
+ 
+/*FOURTH BREAK BETWEEN 320px AND 489px*/
+ @media (max-width:568px){
+     #header{margin-top:1em;border-radius:2em 2em 2em 2em;}
+     #nav {float: left;}
+     #nav li{padding-left: auto;padding-right: auto;}
+      .lightbulb {margin-left:22.5em;bottom: -0.1em;}
+     h1{font-size:3em;margin-top:-1.5em;margin-right: .6em;float:right;line-height:100%;}
+     h2{font-size:2em; margin-left:1em;padding-top:1.2em; color:white;}
+     #Home{height:30px;background-position: 0 .5em;}
+     .quotes {font-size: 1.4em;}
+     .quotes_container {margin-top: -7em; auto;padding-bottom:9.5em;}
+     #Background, #Career{height:50px;}
+      /*    STATE PIC ARROW AND WORD*/
+     #spic {display:hidden;}
+    .gray{display:hidden;}
+    .ncpic{display:hidden;}
+    .arrow{display:hidden;}
+   /*SLIDER*/
+     .creations {width: 300px; height: 240px; border-radius: 40px;}
+     #slider {margin: -9em auto 0 auto;}
+     #slider ul {height: 240px; width: 300px;padding:0;}
+     #slider li {height: 240px; width: 300px;}
+    #Projects{background: url(../img/wood4.jpg) 0 calc(31% + 10px)fixed no-repeat;color: #fff;
+	height: 70px;	
+	background-size: contain; 
+	background-color: rgba(139, 172, 132, 0.38);}
+    #Current{background: url(../img/drive2.jpg) 0 calc(64% - 8px) fixed no-repeat;
+        height: 500px;background-size: contain;background-color: rgba(33, 40, 77, 0.97);}
+	#wrapper2 {width:80%;margin-left:1.5em;margin-top:.5em;}
+       .npic, #wrapper {display:none;}
+       .comments{width:15em;height: 28em;margin-top:3em;}
+       #Lastpage{height: 250px;}
+       ul.websites li.websites {top:-4em;font-size:1.3em; padding: 20px 0 70px 0;}
+       footer{margin-top:2em;padding:1em;}
+ }
+ @media (max-width:320px){
+     #header{margin-top:1em;border-radius:2em 2em 2em 2em;}
+     #nav {float: left;}
+     #nav ul li:nth-child(3n+2){display:none;}
+     #nav li{padding-left: auto;padding-right: auto;}
+     .lightbulb{margin:0;}
+     #Home{background-position: 0 6em;}
+     h1{margin-top:-1.8em;margin-right: .5em;}
+     h2{margin-left:.5em;padding: 3em 0 0 1em;color:black;}
+     #Projects{background: url(../img/wood4.jpg) 0 calc(32% + 25px)fixed no-repeat;
+     	background-size:contain;background-color: rgba(139, 172, 132, 0.38);}
+     /*    STATE PIC ARROW AND WORD*/
+     #spic {margin-left: 8%; margin-top: -50%;}
+    .gray{font-size: 1.5em; margin-left:-3em;bottom: 65px;}
+    .ncpic{width: 40%; height:36.6%}
+    .arrow{width: 16%; height:30%;padding-bottom: 15px;}
+    #Current{background: url(../img/drive2.jpg) 0 calc(64% + 8px) fixed no-repeat;
+    	background-size: contain;background-color: rgba(33, 40, 77, 0.97);}
+ }
+
+
